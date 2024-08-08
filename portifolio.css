@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    background-color: rgb(26, 14, 26);
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li{
+   list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 95vh;
+    background-color: rgb(18, 17, 24);
+}
+
+.picme{
+    display: flex;
+    width: 40%;
+    background-color: blueviolet;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.texthome{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    padding: 50px;
+}
+
+.texthome h3{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+#nome{
+    color: blueviolet;
+}
+.picme{
+    display: flex;
+}
+
+.picme img{
+    height: 500px;
+    z-index: 1;
+}
+
+#sobremim{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+    height: 95vh;
+    background-color: rgb(24, 22, 32);
+
+}
+.pessoal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.textsobre{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+}
+
+
+.academico{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardacademico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    padding: 20px;
+    gap: 10px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+#skills{
+    background-color: rgb(18, 17, 24);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.soft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:50%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 30%;
+    background-color: blueviolet;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.hard{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.linguagens{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.linguagens img{
+    width: 150px;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(24, 22, 32);
+    height: 95vh;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: solid rgb(62, 47, 116);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 20%;
+    gap: 10px;
+    margin: 10px;
+}
+
+.card:hover{
+    opacity: 50%;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+#contatos {
+    background-color: rgb(18, 17, 24);
+
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer{
+    background-color: blueviolet;
+}
