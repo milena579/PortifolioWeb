@@ -43,16 +43,20 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     height: 95vh;
-    background-color: rgb(18, 17, 24);
+    background-color: #121118;
 }
 
 .picme{
     display: flex;
-    width: 40%;
+    width:40%;
     background-color: blueviolet;
     justify-content: center;
     padding: 20px;
     align-items: center;
+}
+
+.picme img{
+    width: 300px;
 }
 
 .texthome{
@@ -61,8 +65,8 @@ a{
     color: aliceblue;
     font-size: 40px;
     flex-direction: column;
-    align-items: left;
-    width: 50%;
+    align-items: center;
+    max-width: 50%;
     padding: 50px;
 }
 
@@ -71,16 +75,23 @@ a{
     align-items: left;
     justify-content: center;
 }
-#nome{
-    color: blueviolet;
-}
-.picme{
+
+.texthome input{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(blueviolet, pink, blue);
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 15px;
+    font-size: 3vh;
+    cursor: pointer;
+    font-weight: 600;
 }
 
-.picme img{
-    height: 500px;
-    z-index: 1;
+#nome{
+    color: blueviolet;
 }
 
 #sobremim{
@@ -90,7 +101,7 @@ a{
     padding: 30px;
     gap: 20px;
     align-items: center;
-    height: 95vh;
+    min-height: 95vh;
     background-color: rgb(24, 22, 32);
 
 }
@@ -98,6 +109,8 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 15px;
+    max-height: 50%;
 }
 
 .textsobre{
@@ -105,32 +118,47 @@ a{
     flex-direction: column;
     width: 60%;
     padding: 20px;
+    gap: 20px;
 }
 
+.textsobre p {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    line-height: 5vh;
+}
+.pessoal img{
+    border-radius: 50%;
+    border: solid 1px blueviolet;
+    max-width: 30%;
+}   
 
 .academico{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
+    margin: 15px;
+
 }
 
 .cardacademico{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 30%;
+    max-width: 25%;
     padding: 20px;
     gap: 10px;
     border: solid 1px white;
     border-radius: 15px;
+    font-size: 1vw;
 }
 
 #skills{
     background-color: rgb(18, 17, 24);
-    height: 95vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -143,7 +171,9 @@ a{
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    margin: 10px;
 }
+
 .habilidades{
     display: flex;
     flex-direction: row;
@@ -161,7 +191,7 @@ a{
     max-width: 30%;
     background-color: blueviolet;
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .hard{
@@ -170,6 +200,8 @@ a{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .linguagens{
@@ -178,10 +210,18 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
+    gap: 10px;
 }
 
-.linguagens img{
-    width: 150px;
+.linguagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.linguagem img{
+    max-width: 100px;;
 }
 
 #projetos{
@@ -189,7 +229,7 @@ a{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
     background-color:  rgb(24, 22, 32);
@@ -203,18 +243,22 @@ a{
     padding: 20px;
     gap: 20px;
     justify-content: center;
+    max-height: 70%;
+    max-width: 70%;
 
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: left;
-    border: solid rgb(62, 47, 116);
+    border: solid #3e2f74;
     padding: 15px;
     border-radius: 10px;
     max-width: 20%;
     gap: 10px;
     margin: 10px;
+    font-size: 1vw;
+    cursor: pointer;
 }
 
 .card:hover{
@@ -223,9 +267,13 @@ a{
     transform: scale(1.1);
 }
 
-#contatos {
+#contatos{
     background-color: rgb(18, 17, 24);
-
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contato{
@@ -233,7 +281,8 @@ a{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    padding: 50px;
+    width: 100%;
+    height: 50vh;
 }
 
 footer{
